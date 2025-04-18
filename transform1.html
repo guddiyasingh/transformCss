@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+        .box{
+           margin: 30px;
+           padding: 10px;
+          height: 100px;
+            width: 120px;
+            background-color: rgb(107, 107, 185);
+            border: 2px solid rgb(56, 56, 189);
+            display: flex;
+            align-items: center;
+            color: rgb(114, 53, 170);
+        }
+        .container{
+          margin: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            align-content: wrap ;
+        }
+        .box1:hover{
+
+           transform: rotate(40deg); 
+          
+        }
+        .box2:hover{
+             
+            transform: scale(3.3);
+            
+        }
+        .box3:hover{
+            transform: skew(2deg,4deg);
+        }
+        .box4:hover{
+            transform: translate(100%);
+        }
+        .box5:hover{
+            transform: skewX(20deg);
+
+        }
+        .box6:hover{
+            transform: rotate(30deg) scale(1.2) translate(20px);
+        }
+</style>
+<body>
+    <div class="container">
+        <div class="box box1">rotate(40deg)</div>
+        <div class="box box2"> scale(3.3) </div>
+        <div class="box box3">skew(2deg,4deg)</div>
+        <div class="box box4">translate(100%)</div>
+        <div class="box box5">skewX(20deg)</div>
+        <div class="box box6">otate(30deg) scale(1.2) translate(20px)</div>
+    </div>
+</body>
+</html>
